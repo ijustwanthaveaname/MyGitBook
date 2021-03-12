@@ -250,7 +250,7 @@ branch model与clade model类似，但是只包含了单一比例的位点，因
 
 主要有下述两种模型：
 
-* Clade model C\(简称CmC\):**通过model = 3, Nssites = 2, ncatG = 3来指定。**CmC假定两类位点在整个系统发育是保守的，即0&lt;ω00以及ωD1≠ωD2&gt;0。**空模型为M2a\_rel， 通过model = 0, Nssites = 22指定。**
+* Clade model C\(简称CmC\):**通过model = 3, Nssites = 2, ncatG = 3来指定。**CmC假定两类位点在整个系统发育是保守的，即0&lt;ω0&lt;1以及ω1=1。其余几类位点根据分区来定，例如如果有两个分区，则有ωD1≠ωD2&gt;0。**空模型为M2a\_rel， 通过model = 0, Nssites = 22指定。**
 * Clade model D\(简称CmD\):**通过model = 3, Nssites = 3, ncatG = 3来指定。**CmD和CmC类似，但是三类位点\(ω0, ω1, ωD\)都不设限制。**空模型为M3。**
 
 参考配置：
